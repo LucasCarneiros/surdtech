@@ -1,0 +1,25 @@
+/* Estilizando o menu lateral */
+.sider-menu {
+  background-color: #036AB4; /* Cor do fundo do menu lateral */
+  height: 100vh; /* Garantindo que ocupe a altura total da tela */
+}
+
+/* Estilizando os itens do menu */
+.menu-items {
+  color: white; /* Cor do texto dos itens do menu */
+  padding-top: 20px; /* Afastando os ícones do topo */
+}
+
+
+.menu-items .ant-menu-item-selected {
+  background-color: #2587d7; /* Mudando a cor do fundo quando o item está selecionado */
+}
+
+.menu-items .ant-menu-item .anticon {
+  color: white; /* Cor dos ícones */
+}
+
+/* Para garantir que a área do menu também seja azul */
+.menu-items {
+  background-color: #036AB4; /* Cor do fundo do menu */
+}

@@ -1,0 +1,73 @@
+/* Estilizando a página da prova */
+
+  
+  .exam-page h1 {
+    text-decoration: underline;
+    text-decoration-color: purple; /* Underline roxo */
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .navigation-buttons {
+    font-size: 24px; /* Aumentando o tamanho da fonte */
+  }
+  
+  /*div em baixo de Questao4*/
+  .div-content {
+    height: 200px; 
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #D9D9D9;
+  }
+  
+  .table-alternatives .ant-table-tbody > tr > td:first-child {
+    color: #DCA55A; /* Alternativas A, B, C, D, E com cor amarela */
+  }
+  
+  .table-alternatives {
+    height: 400px; /* Aumentando a altura da tabela */
+  }
+  
+  .table-alternatives .ant-table-cell {
+    text-align: center; /* Centralizando o conteúdo nas subcolunas da coluna Progresso */
+  }
+  
+  .table-alternatives .ant-table-thead > tr > th {
+    border-right: 2px solid #F1F1F1;
+    border-bottom: 2px solid #F1F1F1; /* Escurecendo as linhas da tabela */
+  }
+  
+  .table-alternatives .ant-table-tbody > tr > td {
+    border-right: 2px solid #F1F1F1;
+    border-bottom: 2px solid #F1F1F1; /* Escurecendo as linhas da tabela */
+  }
+  
+  .table-alternatives th.ant-table-cell {
+    text-align: center;
+    vertical-align: middle; /* Alinhando títulos de colunas */
+  }
+
+  .table-alternatives th.ant-table-cell[colspan] {
+    border-right: none;
+    position: relative;
+    padding-right: 0;
+  }
+  
+  /* Ajuste para borda da última subcoluna da célula "Progresso" */
+.table-alternatives .ant-table-cell:last-child {
+    border-right: none;               /* Remove a borda direita da última subcoluna */
+  }
+
+  .ArrowButton{
+    font-size: 30px;
+    
+  }
+
+  .ArrowButton:hover{
+    font-size: 35px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    
+  }
